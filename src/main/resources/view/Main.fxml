@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="200.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="cn.woodwhales.file.controller.FileEncryptToolController">
+   <children>
+      <Button layoutX="186.0" layoutY="78.0" mnemonicParsing="false" onMouseClicked="#decode" text="解密" />
+      <Button layoutX="75.0" layoutY="78.0" mnemonicParsing="false" onMouseClicked="#encode" text="加密" />
+      <Label fx:id="tips" layoutX="74.0" layoutY="73.0" prefHeight="15.0" prefWidth="152.0" />
+      <Label fx:id="productInfo" layoutX="65.0" layoutY="147.0" text="" textFill="SILVER" />
+      <Separator layoutX="50.0" layoutY="138.0" prefWidth="200.0" />
+      <Label fx:id="versionInfo" layoutX="114.0" layoutY="162.0" text="" textFill="SILVER" />
+   </children>
+</Pane>
